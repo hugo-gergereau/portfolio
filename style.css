@@ -4,7 +4,7 @@
 
 body {
     margin: 0%;
-    background-color: rgb(30, 30, 30);
+    background-color: rgb(18, 20, 22);
     overflow-x: hidden;
 }
 
@@ -20,7 +20,7 @@ body {
     top: 92px;
     width: 100%;
     height: 60px;
-    background: rgb(30, 30, 30);
+    background: rgb(18, 20, 22);
     text-shadow: black 8px 5px 7px;
     box-shadow: 0px 10px 45px 10px rgb(0, 0, 0);
     opacity: 0.96;
@@ -84,11 +84,11 @@ label,
 .footer_page {
     -webkit-animation: slide-in-right 2.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
     animation: slide-in-right 2.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-    
+
     width: 100%;
     height: 200px;
-    top:1020px;
-    background: rgb(51, 49, 49);
+    top: 1020px;
+    background: rgb(18, 20, 22);
     position: absolute;
     bottom: 0px;
     box-shadow: 0px 10px 45px 10px rgb(0, 0, 0);
@@ -500,13 +500,13 @@ hr {
     transition: 0.5s;
     text-align: center;
     background-color: #333;
-    
+
 }
 
 .card:hover .face.face1 .content {
     opacity: 1;
     background-color: #333;
-    
+
 }
 
 .face.face1 .content i {
@@ -751,8 +751,169 @@ hr {
 
 
 
-/* --------------------------------------------ACCUEIL----------------------------------------------- */
+/* --------------------------------------------veille technologique----------------------------------------------- */
+.titre1_baniere-veille-technologique {
+    position: absolute;
+    margin-top: 20px;
+    color: white;
+    text-shadow: black 8px 5px 7px;
+    margin-left: 35%;
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
 
+}
+
+
+
+
+
+
+.container_box_veille-technologique {
+    -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+    animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+    top: 400px;
+    width: 800px;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    left: 30%;
+    top: 250px;
+
+
+}
+
+.card_veille-technologique {
+    position: relative;
+    margin-top: -50px;
+
+}
+
+.face_veille-technologique {
+    width: 300px;
+    height: 200px;
+    transition: .8s;
+
+}
+
+.face1_veille-technologique {
+
+    position: relative;
+    background: #333;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    z-index: 1;
+    transform: translateY(100px);
+    background-image: url("/ressource/bk2.gif");
+
+}
+
+.card_veille-technologique:hover .face_veille-technologique.face1_veille-technologique {
+    background-image: url("#");
+    transform: translateY(0);
+    box-shadow:
+        inset 0 0 2px whitesmoke,
+        inset -10px 0 40px #f0f,
+        inset -10px 0 40px #0ff,
+        inset 10px 0 100px #f0f,
+        inset -10px 0 100px #0ff,
+        0 0 50px #fff,
+        -10px 0 40px #f0f,
+        -10px 0 40px #0ff;
+}
+
+.face_veille-technologique.face1_veille-technologique .content_veille-technologique {
+    opacity: 0.90;
+    transition: 0.5s;
+    text-align: center;
+    background-color: #333;
+
+}
+
+.card_veille-technologique:hover .face_veille-technologique.face1_veille-technologique .content_veille-technologique {
+    opacity: 1;
+    background-color: #333;
+}
+
+.face_veille-technologique.face1_veille-technologique .content_veille-technologique i {
+    font-size: 3em;
+    display: inline-block;
+}
+
+.content_veille-technologique {
+    background-color: rgb(30, 30, 30);
+    height: 150px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+.face_veille-technologique.face1_veille-technologique .titre_box_veille-technologique {
+    font-size: 1em;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-shadow: black 8px 5px 7px;
+
+}
+
+.titre_box_veille-technologique {
+    position: relative;
+
+}
+
+.face_veille-technologique.face1_veille-technologique .content_veille-technologique .download_veille-technologique {
+    transition: .5s;
+
+
+}
+
+.face_veille-technologique.face2_veille-technologique {
+    position: relative;
+    background-color: rgb(30, 30, 30);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0px 10px 45px 10px rgb(0, 0, 0);
+    transform: translateY(-100px);
+
+
+}
+
+.card_veille-technologique:hover .face_veille-technologique.face2_veille-technologique {
+    transform: translateY(0);
+
+}
+
+.content_bas_veille-technologique .text_box_veille-technologique {
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    color: rgb(255, 255, 255);
+}
+
+.download_veille-technologique {
+    color: rgb(255, 255, 255);
+}
+
+.download_veille-technologique {
+    text-decoration: none;
+    color: black;
+    box-sizing: border-box;
+    outline: 1px dashed #333;
+    padding: 10px;
+    margin: 15px 0 0;
+    display: inline-block;
+
+}
+
+.download_veille-technologique:hover {
+    background: #333;
+    color: rgb(0, 162, 255);
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
 
 
 /* --------------------------------------------MON CV----------------------------------------------- */
@@ -765,7 +926,7 @@ hr {
     height: 60px;
     top: 5%;
     left: 53%;
-    background: rgb(30, 30, 30);
+    background: rgb(18, 20, 22);
     text-shadow: black 8px 5px 7px;
 
     opacity: 0.96;
@@ -1013,7 +1174,7 @@ nav .lien_cv:hover {
 }
 
 /* The actual content */
-.content {
+.content_formation {
     padding: 20px 30px;
     background-color: white;
     border-color: rgb(0, 162, 255);
@@ -1104,7 +1265,7 @@ nav .lien_cv:hover {
     height: 25px;
     right: -17px;
     background-color: white;
-    border: 4px solid #FF9F55;
+    border: 4px solid rgb(0, 162, 255);
     top: 15px;
     border-radius: 50%;
     z-index: 1;
@@ -1129,9 +1290,9 @@ nav .lien_cv:hover {
     width: 0;
     z-index: 1;
     right: 30px;
-    border: medium solid white;
+    border: medium solid rgb(0, 162, 255);
     border-width: 10px 0 10px 10px;
-    border-color: transparent transparent transparent white;
+    border-color: transparent transparent transparent rgb(0, 162, 255);
 }
 
 /* Add arrows to the right container (pointing left) */
@@ -1143,9 +1304,9 @@ nav .lien_cv:hover {
     width: 0;
     z-index: 1;
     left: 30px;
-    border: medium solid white;
+    border: medium solid rgb(0, 162, 255);
     border-width: 10px 10px 10px 0;
-    border-color: transparent white transparent transparent;
+    border-color: transparent rgb(0, 162, 255) transparent transparent;
 }
 
 /* Fix the circle for containers on the right side */
