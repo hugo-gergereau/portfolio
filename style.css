@@ -146,7 +146,7 @@ label,
 
 }
 
-hr {
+.hr {
 
     border: 2px solid rgb(28, 68, 156);
 
@@ -1233,7 +1233,7 @@ nav .lien_cv:hover {
     position: relative;
     max-width: 1300px;
     margin: 0 auto;
-    height: 1200px;
+    height: 1300px;
 }
 
 /* The actual timeline (the vertical ruler) */
@@ -1250,7 +1250,7 @@ nav .lien_cv:hover {
 
 /* Container around content */
 .container2 {
-    top: 200px;
+    top: 50px;
     padding: 10px 40px;
     position: relative;
     background-color: inherit;
@@ -1322,6 +1322,97 @@ nav .lien_cv:hover {
     border-radius: 6px;
 }
 
+
+.experience {
+    -webkit-animation: slide-in-right 2.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: slide-in-right 2.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+
+    width: 100%;
+    height: 200px;
+    top: 1300px;
+    background: rgb(18, 20, 22);
+    position: absolute;
+    bottom: 0px;
+    box-shadow: 0px 10px 45px 10px rgb(0, 0, 0);
+    z-index: 100;
+    margin-bottom: 0%;
+
+}
+
+/* .footer_experience {
+    margin-top: 200px;
+    width: 100%;
+    height: 200px;
+    background: rgb(51, 49, 49);
+    position: relative;
+    bottom: 0px;
+    box-shadow: 0px 10px 45px 10px rgb(0, 0, 0);
+    z-index: 100;
+
+} */
+
+.contianer-footer_experience {
+    position: absolute;
+    top: 50px;
+    width: 900px;
+    display: flex;
+    left: 55%;
+    transform: translate(-50%);
+
+}
+
+.lien-footer_experience {
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: black 0.5em 0.5em 0.5em;
+}
+
+.lien-footer_experience:hover {
+    color: rgb(0, 162, 255);
+    text-shadow: black 0px 0px 0px;
+
+
+}
+
+
+.copyright_experience {
+    display: flex;
+    position: absolute;
+    bottom: 15%;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 18px;
+    color: white;
+
+}
+
+
+
+.bar_experience {
+    background: rgb(28, 68, 156);
+    width: 2px;
+    height: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media screen and (max-width: 600px) {
 
@@ -1357,6 +1448,69 @@ nav .lien_cv:hover {
     }
 }
 
+/*------------------------------------------mes COMPETENCES-----------------------------------------------*/
+
+.p_competences {
+    font-size: 20px;
+}
+
+.container_competences {
+    background-color: rgb(192, 192, 192);
+    width: 80%;
+    border-radius: 15px;
+}
+
+.skill_competences {
+    background-color: rgb(116, 194, 92);
+    color: white;
+    padding: 1%;
+    text-align: right;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+.html_competences {
+    width: 80%;
+}
+
+.php_competences {
+    width: 60%;
+}
+
+
+
+
+
+
+
+
+/* --------------------------------------------Mes PASSIONS----------------------------------------------- */
+
+.gif_404{
+    position: absolute;
+    top: 150px;
+    left: 537px;
+}
+
+.titre1_baniere_mon_labo {
+    position: absolute;
+    margin-top: 20px;
+    color: white;
+    text-shadow: black 8px 5px 7px;
+    margin-left: 40%;
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+
+}
+
+.texte_404_labo{
+    position: absolute;
+    font-family: 'Kaushan Script', cursive;
+    top: 790px;
+    left: 270px;
+    color: white;
+    text-shadow: black 8px 5px 7px;
+}
 /* --------------------------------------------Mes PASSIONS----------------------------------------------- */
 
 .titre1_baniere_mes_passions {
@@ -1594,4 +1748,3 @@ nav .lien_cv:hover {
     100% {
         transform: translateX(0px);
     }
-} */
