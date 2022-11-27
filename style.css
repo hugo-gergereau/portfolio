@@ -1486,7 +1486,7 @@ nav .lien_cv:hover {
 
 /* --------------------------------------------Mes PASSIONS----------------------------------------------- */
 
-.gif_404{
+.gif_404 {
     position: absolute;
     top: 150px;
     left: 537px;
@@ -1503,7 +1503,7 @@ nav .lien_cv:hover {
 
 }
 
-.texte_404_labo{
+.texte_404_labo {
     position: absolute;
     font-family: 'Kaushan Script', cursive;
     top: 790px;
@@ -1511,6 +1511,7 @@ nav .lien_cv:hover {
     color: white;
     text-shadow: black 8px 5px 7px;
 }
+
 /* --------------------------------------------Mes PASSIONS----------------------------------------------- */
 
 .titre1_baniere_mes_passions {
@@ -1639,7 +1640,90 @@ nav .lien_cv:hover {
     }
 }
 
+/*------------------------------------------MON LABOS-----------------------------------------------*/
 
+
+
+
+
+
+
+
+.b1_plan_infra,
+.b2_plan_infra,
+.b3_plan_infra,
+.b4_plan_infra,
+.b5_plan_infra {
+    display: flex;
+    float:left;
+    margin: 25px;
+    position: relative;
+    color:white;
+    border-color:gray;
+    background: rgb(18, 20, 22);
+    text-shadow: black 0.5em 0.5em 0.5em;
+    box-shadow: black 0.5em 0.5em 0.5em;
+    border-radius: 5px;
+    font-size:25px;
+    width: 170px;
+    height: 50px;
+    top: 250px;
+    left: 410px;
+}
+.b1_plan_infra:hover,
+.b2_plan_infra:hover,
+.b3_plan_infra:hover,
+.b4_plan_infra:hover,
+.b5_plan_infra:hover{
+    color: rgb(0, 162, 255);
+    text-shadow: black 0px 0px 0px;
+    box-shadow: black 0px 0px 0px;
+    border-radius: 5px;
+}
+
+
+
+
+.content_plan_infra {
+    position: absolute;
+    width: 75px;
+    height: 400px;
+    top: 350px;
+}
+
+
+
+
+
+
+#one_plan_infra{
+    display: flex;
+    width: 2178px;
+    height: 1068px;
+    
+}
+/* width: 2778px;
+height: 1698px; */
+
+
+#two_plan_infra{
+    display: none;
+}
+#three_plan_infra{
+    display: none;
+}
+#four_plan_infra{
+    display: none;
+}
+#five_plan_infra{
+    display: none;
+}
+
+
+#button {
+    outline: none;
+    position: absolute;
+}
 
 /* 
 .titre_passion2 {

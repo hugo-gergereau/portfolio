@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="efr">
 
 <head>
     <meta charset="UTF-8">
@@ -12,9 +12,9 @@
 <body>
     <div class="baniere">
         <img class="image_baniere" src="ressource/baniere.png">
-        <h1 class="titre1_baniere_mon_labo"> Mon Labo - Hugo Gergereau</h1>
+        <h1 class="titre1_baniere_mon_labo"> Mon Labo</h1>
     </div>
-  
+
     <nav class="nav_menu">
         <label for="toggle">☰</label>
         <input type="checkbox" id="toggle">
@@ -29,8 +29,72 @@
         </div>
     </nav>
 
-    <img class="gif_404" src="ressource/gif 404.gif" alt="page en cours de dévellopement">
-    <h1 class="texte_404_labo">JE SUIS DESOLÉ MAIS CETTE PAGE EST EN COURS DE DEVELLOPEMENT !!!</h1>
+    <div class="container_plan_infra">
+        <button class="b1_plan_infra" onClick="myFunction1()">infra entiere</button>
+        <button class="b2_plan_infra" onClick="myFunction2()">E4 N°1</button>
+        <button class="b3_plan_infra" onClick="myFunction3()">E4 N°2</button>
+        <button class="b4_plan_infra" onClick="myFunction4()">PROJET_ONE</button>
+        <button class="b5_plan_infra" onClick="myFunction5()">OCÉ & RYAN</button>
+    </div>
 
+    <div class="content_plan_infra">
+        <div id="one_plan_infra" ><img  src="ressource/plan_infra/infra_all.png" /></div>
+        <div id="two_plan_infra"><img src="ressource/plan_infra/infra-E4 N°1.png" /></div>
+        <div id="three_plan_infra"><img src="ressource/plan_infra/infra-E4 N°2.png" /></div>
+        <div id="four_plan_infra"><img src="ressource/plan_infra/infra_projet-one.png" /></div>
+        <div id="five_plan_infra"><img src="ressource/plan_infra/infra_océ-ryan.png" /></div>
+    </div>
+
+
+        
+
+
+    <script>
+        const myFunction1 = () => {
+            document.getElementById("one_plan_infra").style.display = 'block'
+            document.getElementById("two_plan_infra").style.display = 'none'
+            document.getElementById("three_plan_infra").style.display = 'none'
+            document.getElementById("four_plan_infra").style.display = 'none'
+            document.getElementById("five_plan_infra").style.display = 'none'
+        }
+
+        const myFunction2 = () => {
+            document.getElementById("one_plan_infra").style.display = 'none'
+            document.getElementById("two_plan_infra").style.display = 'block'
+            document.getElementById("three_plan_infra").style.display = 'none'
+            document.getElementById("four_plan_infra").style.display = 'none'
+            document.getElementById("five_plan_infra").style.display = 'none'
+        }
+
+        const myFunction3 = () => {
+            document.getElementById("one_plan_infra").style.display = 'none'
+            document.getElementById("two_plan_infra").style.display = 'none'
+            document.getElementById("three_plan_infra").style.display = 'block'
+            document.getElementById("four_plan_infra").style.display = 'none'
+            document.getElementById("five_plan_infra").style.display = 'none'
+        }
+
+        const myFunction4 = () => {
+            document.getElementById("one_plan_infra").style.display = 'none'
+            document.getElementById("two_plan_infra").style.display = 'none'
+            document.getElementById("three_plan_infra").style.display = 'none'
+            document.getElementById("four_plan_infra").style.display = 'block'
+            document.getElementById("five_plan_infra").style.display = 'none'
+        }
+
+        const myFunction5 = () => {
+            document.getElementById("one_plan_infra").style.display = 'none'
+            document.getElementById("two_plan_infra").style.display = 'none'
+            document.getElementById("three_plan_infra").style.display = 'none'
+            document.getElementById("four_plan_infra").style.display = 'none'
+            document.getElementById("five_plan_infra").style.display = 'block'
+        }
+
+
+    </script>
+
+    
+    
 </body>
+
 </html>
