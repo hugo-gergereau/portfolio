@@ -766,9 +766,7 @@ label,
 
 
 
-
-
-.container_box_veille-technologique {
+.container_box_veille-techno {
     -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
     animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
     top: 400px;
@@ -783,20 +781,20 @@ label,
 
 }
 
-.card_veille-technologique {
+.card_veille-techno {
     position: relative;
     margin-top: -50px;
 
 }
 
-.face_veille-technologique {
+.face_veille-techno {
     width: 300px;
     height: 200px;
     transition: .8s;
 
 }
 
-.face1_veille-technologique {
+.face1_veille-techno {
 
     position: relative;
     background: #333;
@@ -810,7 +808,7 @@ label,
 
 }
 
-.card_veille-technologique:hover .face_veille-technologique.face1_veille-technologique {
+.card_veille-techno:hover .face_veille-techno.face1_veille-techno {
     background-image: url("#");
     transform: translateY(0);
     box-shadow:
@@ -824,7 +822,7 @@ label,
         -10px 0 40px #0ff;
 }
 
-.face_veille-technologique.face1_veille-technologique .content_veille-technologique {
+.face_veille-techno.face1_veille-techno .content_veille-techno {
     opacity: 0.90;
     transition: 0.5s;
     text-align: center;
@@ -832,24 +830,24 @@ label,
 
 }
 
-.card_veille-technologique:hover .face_veille-technologique.face1_veille-technologique .content_veille-technologique {
+.card_veille-techno:hover .face_veille-techno.face1_veille-techno .content_veille-techno {
     opacity: 1;
     background-color: #333;
 }
 
-.face_veille-technologique.face1_veille-technologique .content_veille-technologique i {
+.face_veille-techno.face1_veille-techno .content_veille-techno i {
     font-size: 3em;
     display: inline-block;
 }
 
-.content_veille-technologique {
+.content_veille-techno {
     background-color: rgb(30, 30, 30);
     height: 150px;
     width: 200px;
     border-radius: 5px;
 }
 
-.face_veille-technologique.face1_veille-technologique .titre_box_veille-technologique {
+.face_veille-techno.face1_veille-techno .titre_box_veille-techno {
     font-size: 1em;
     color: rgb(255, 255, 255);
     text-align: center;
@@ -857,18 +855,18 @@ label,
 
 }
 
-.titre_box_veille-technologique {
+.titre_box_veille-techno {
     position: relative;
 
 }
 
-.face_veille-technologique.face1_veille-technologique .content_veille-technologique .download_veille-technologique {
+.face_veille-techno.face1_veille-techno .content_veille-techno .download_veille-techno {
     transition: .5s;
 
 
 }
 
-.face_veille-technologique.face2_veille-technologique {
+.face_veille-techno.face2_veille-techno {
     position: relative;
     background-color: rgb(30, 30, 30);
     display: flex;
@@ -882,23 +880,23 @@ label,
 
 }
 
-.card_veille-technologique:hover .face_veille-technologique.face2_veille-technologique {
+.card_veille-techno:hover .face_veille-techno.face2_veille-techno {
     transform: translateY(0);
 
 }
 
-.content_bas_veille-technologique .text_box_veille-technologique {
+.content_bas_veille-techno .text_box_veille-techno {
     font-size: 18px;
     margin: 0;
     padding: 0;
     color: rgb(255, 255, 255);
 }
 
-.download_veille-technologique {
+.download_veille-techno {
     color: rgb(255, 255, 255);
 }
 
-.download_veille-technologique {
+.download_veille-techno {
     text-decoration: none;
     color: black;
     box-sizing: border-box;
@@ -909,11 +907,18 @@ label,
 
 }
 
-.download_veille-technologique:hover {
+.download_veille-techno:hover {
     background: #333;
     color: rgb(0, 162, 255);
     box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
+
+
+
+
+
+
+
 
 
 /* --------------------------------------------MON CV----------------------------------------------- */
@@ -1641,48 +1646,38 @@ nav .lien_cv:hover {
 }
 
 /*------------------------------------------MON LABOS-----------------------------------------------*/
-
-
-
-
-
-
-
-
 .b1_plan_infra,
 .b2_plan_infra,
 .b3_plan_infra,
 .b4_plan_infra,
 .b5_plan_infra {
     display: flex;
-    float:left;
+    float: left;
     margin: 25px;
     position: relative;
-    color:white;
-    border-color:gray;
+    color: white;
+    border-color: gray;
     background: rgb(18, 20, 22);
     text-shadow: black 0.5em 0.5em 0.5em;
     box-shadow: black 0.5em 0.5em 0.5em;
     border-radius: 5px;
-    font-size:25px;
+    font-size: 25px;
     width: 170px;
     height: 50px;
-    top: 250px;
+    top: 160px;
     left: 410px;
 }
+
 .b1_plan_infra:hover,
 .b2_plan_infra:hover,
 .b3_plan_infra:hover,
 .b4_plan_infra:hover,
-.b5_plan_infra:hover{
+.b5_plan_infra:hover {
     color: rgb(0, 162, 255);
     text-shadow: black 0px 0px 0px;
     box-shadow: black 0px 0px 0px;
     border-radius: 5px;
 }
-
-
-
 
 .content_plan_infra {
     position: absolute;
@@ -1691,144 +1686,56 @@ nav .lien_cv:hover {
     top: 350px;
 }
 
+.photo_all {
+    position: absolute;
+    border-radius: 25px;
+    left: 0px;
 
-
-
-
-
-#one_plan_infra{
-    display: flex;
-    width: 2178px;
-    height: 1068px;
-    
 }
-/* width: 2778px;
-height: 1698px; */
 
+.photo_E1 {
+    position: absolute;
+    border-radius: 25px;
+    left: 420px;
+}
 
-#two_plan_infra{
+.photo_E42 {
+    position: absolute;
+    border-radius: 25px;
+    left: 420px;
+}
+
+.photo_one {
+    position: absolute;
+    border-radius: 25px;
+    left: 420px;
+}
+
+.photo_oceryan {
+    border-radius: 25px;
+    position: absolute;
+    left: 420px;
+}
+
+#one_plan_infra {}
+
+#two_plan_infra {
     display: none;
 }
-#three_plan_infra{
-    display: none;
-}
-#four_plan_infra{
-    display: none;
-}
-#five_plan_infra{
+
+#three_plan_infra {
     display: none;
 }
 
+#four_plan_infra {
+    display: none;
+}
+
+#five_plan_infra {
+    display: none;
+}
 
 #button {
     outline: none;
     position: absolute;
 }
-
-/* 
-.titre_passion2 {
-    -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
-    animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
-    position: absolute;
-    font-family: 'Kaushan Script', cursive;
-    font-size: 60px;
-    margin-left: 45%;
-    top: 650px;
-    color: white;
-    text-shadow: black 8px 5px 7px;
-}
-
-.gif_photo2 {
-    -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
-    animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
-    position: absolute;
-    margin-left: 57%;
-    top: 50px;
-
-}
-
-.slider2 {
-    -webkit-animation: text-focus-in 3s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
-    animation: text-focus-in 3s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
-    position: absolute;
-    top: 500px;
-    width: 2520px;
-    height: 360px;
-    overflow: hidden;
-}
-
-.slides2 {
-    width: calc(360px * 16);
-    animation: glisse2 100s infinite;
-}
-
-.slide2 {
-    float: left;
-    height: 360px;
-    width: 360px;
-}
-
-@keyframes glisse2 {
-    0% {
-        transform: translateX(0);
-    }
-
-    6.25% {
-        transform: translateX(-360px);
-    }
-
-    12.5% {
-        transform: translateX(-720px);
-    }
-
-    18.75% {
-        transform: translateX(-1080px);
-    }
-
-    25% {
-        transform: translateX(-1440px);
-    }
-
-    31.25% {
-        transform: translateX(-1800px);
-    }
-
-    37% {
-        transform: translateX(-2160px);
-    }
-
-    43.75% {
-        transform: translateX(-2520px);
-    }
-
-    50% {
-        transform: translateX(-2520px);
-    }
-
-    56.25% {
-        transform: translateX(-2160px);
-    }
-
-    62.5% {
-        transform: translateX(-1800px);
-    }
-
-    68.75% {
-        transform: translateX(-1440px);
-    }
-
-    75% {
-        transform: translateX(-1080px);
-    }
-
-    81.25% {
-        transform: translateX(-720px);
-    }
-
-    87.5% {
-        transform: translateX(-360px);
-    }
-
-    100% {
-        transform: translateX(0px);
-    }
